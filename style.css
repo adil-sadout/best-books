@@ -9,6 +9,52 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+  .nav-buttons::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+  }
+  
+  .nav-buttons::-webkit-scrollbar
+  {
+      width: 10px;
+      background-color: #F5F5F5;
+  }
+  
+  .nav-buttons::-webkit-scrollbar-thumb
+  {
+      background-color: #0ae;
+      border-radius: 5px;
+      
+      background-image: -webkit-gradient(linear, 0 0, 0 100%,
+                         color-stop(.5, rgba(255, 255, 255, .2)),
+                         color-stop(.5, transparent), to(transparent));
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nav-buttons{
     overflow-x: auto;
     white-space: nowrap;
@@ -57,6 +103,63 @@ body{
 
 
 
+.buy-buttons button{
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+
+.button-up{
+    position: fixed;
+    left: 90%;
+    top: 90%;
+    background-color: rgb(9, 140, 228);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.modal button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .hidden{
@@ -67,3 +170,8 @@ body{
     width: 0;
     height: 0;
 }
+
+
+
+
+
