@@ -19,7 +19,7 @@ document.querySelectorAll('.nav-buttons button').forEach(item => {
 
 
 
-
+menu = document.getElementsByClassName("main-menu")[0];
 
 
 modal = document.getElementsByClassName("modal")[0];
@@ -38,6 +38,14 @@ modalbtn.addEventListener("click",() =>{
 });
 
 
+
+function openModal(){
+  modal.classList.remove("hidden");
+}
+
+function toggleMenu(){
+  menu.classList.toggle("hidden");
+}
 
 
 

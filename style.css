@@ -12,7 +12,41 @@ button{
     cursor: pointer;
 }
 
+ul{
+    list-style: none;
+    text-decoration: none;
+}
 
+.menu-btn{
+    background-color: cornflowerblue;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 60%;
+    font-size: 2rem;
+    position: fixed;
+    left: 3%;
+    top: 15%;
+    outline: none;
+}
+
+
+.main-menu{
+    position: fixed;
+    padding: 20px;
+    left: 10%;
+}
+
+.main-menu ul li button{
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 5px;
+
+    padding: 5px;
+}
 
 
 
@@ -50,9 +84,10 @@ button{
 
 
 
-
-
-
+.add-book{
+    position: absolute;
+    left: ;
+}
 
 
 

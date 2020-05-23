@@ -12,8 +12,6 @@
 
 <button class="button-up" onclick="backToTop()">↑</button>
 
-
-
     <nav>
         <div class="nav-buttons" id="nav-bar">
             <button id="analy">Analyse</button>
@@ -26,6 +24,15 @@
     </nav>
 
 
+    <button class="menu-btn" onclick="toggleMenu()">+</button>
+
+    <menu class="main-menu hidden">
+        <ul>
+            <li><button onclick="openModal()">Ajouter Un Livre</button></li>
+            <li><button onclick="openModal()">Se Connecter</button></li>
+            <li><button onclick="openModal()">Creer Un Compte</button></li>
+        </ul>
+    </menu>
 
 
 
@@ -34,11 +41,6 @@
 
 
     <div class="main-container">
-
-
-
-
-
 
 
         <div class="algo-container algo hidden">
