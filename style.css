@@ -8,6 +8,10 @@ body{
     background-color:  rgb(90, 88, 88);
 }
 
+button{
+    cursor: pointer;
+}
+
 
 
 
@@ -146,6 +150,9 @@ body{
     position: absolute;
     top: 5px;
     right: 5px;
+    background-color: none;
+    border: none;
+    outline: none;
 }
 
 
