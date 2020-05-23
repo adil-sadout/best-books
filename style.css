@@ -24,7 +24,7 @@ ul{
     border-radius: 60%;
     font-size: 2rem;
     position: fixed;
-    left: 3%;
+    left: 2%;
     top: 15%;
     outline: none;
 }
@@ -32,8 +32,8 @@ ul{
 
 .main-menu{
     position: fixed;
-    padding: 20px;
-    left: 10%;
+    left: 15%;
+    top: 15%;
 }
 
 .main-menu ul li button{
@@ -44,7 +44,6 @@ ul{
     font-weight: bold;
     line-height: 1.4;
     margin: 5px;
-
     padding: 5px;
 }
 
@@ -86,7 +85,7 @@ ul{
 
 .add-book{
     position: absolute;
-    left: ;
+    left: 5%;
 }
 
 
